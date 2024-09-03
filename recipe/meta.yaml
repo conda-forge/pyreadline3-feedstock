@@ -11,7 +11,7 @@ source:
   sha256: 6f3d1f7b8a31ba32b73917cefc1f28cc660562f39aea8646d30bd6eff21f7bae
 
 build:
-  number: 3
+  number: 4
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [not win]
 
@@ -20,6 +20,7 @@ requirements:
     - pip
     - python
     - sphinx
+    - setuptools
   run:
     - python
 
