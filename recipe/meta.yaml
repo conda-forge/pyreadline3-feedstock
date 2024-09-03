@@ -20,6 +20,7 @@ requirements:
     - pip
     - python
     - sphinx
+    - setuptools
   run:
     - python
 
