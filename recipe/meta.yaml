@@ -1,5 +1,5 @@
 {% set name = "pyreadline3" %}
-{% set version = "3.5.2" %}
+{% set version = "3.5.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyreadline3-{{ version }}.tar.gz
-  sha256: ba82292e52c5a3bb256b291af0c40b457c1e8699cac9a873abbcaac8aef3a1bb
+  sha256: 9234684ca75a00a702fda42b17cc26ca665bc9d7c2da06af450468253099ff61
 
 build:
   number: 0
