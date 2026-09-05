@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyreadline3-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/pyreadline3-{{ version }}.tar.gz
   sha256: 61e53218b99656091ddb077df9e71f25850e72e030b6183b39c9b7e6e4f4a9bf
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [not win]
 
